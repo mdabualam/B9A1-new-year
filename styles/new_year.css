@@ -1,7 +1,9 @@
 /* shared styles */
 body {
     font-family: "Merriweather", serif;
+    font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
+    position: absolute;
 }
 
 /* banner style */
@@ -12,7 +14,6 @@ body {
     margin-left: 50px;
     margin-right: 50px;
     
-    
 }
 
 .banner-text {
@@ -20,9 +21,9 @@ body {
     position: absolute;
     width: 1320px;
     height: 600px;
-    left: 57px;
+    left: 50px;
     top: 0px;
-    bottom: 50px;
+    bottom: 0px;
     border-radius: 16px;
     background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);
 }
@@ -44,10 +45,92 @@ body {
     /* Font layout-Celebration */
     color: rgb(255, 255, 255);
     width: 632px;
-    /* margin-top: 30px; */
     margin-left: 340px;
     font-size: 60px;
     font-weight: 900;
     line-height: 95px;
     text-align: center;  
+}
+
+/* style for offer */
+.offer{
+    /* offer */
+    position: absolute;
+    width: 802.9px;
+    height: 806px;
+    left: 399px;
+    right: -399px;
+    top: 770px;
+    bottom: 5759px;
+    text-align: center;
+}
+
+.offer-off{
+    /* 65% OFF */
+    width: 570px;
+    height: 107px;
+    left: 600px;
+    right: -600px;
+    top: 270px;
+    bottom: -770px;
+    margin-left: 50px;
+
+    /*offer font style */
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    
+}
+
+.offer-deals{
+    /* OUR HOLIDAY DEALS ARE BETTER */
+    width: 510px;
+    height: 29px;
+    left: 602px;
+    right: -602px;
+    top: 925px;
+    bottom: -851px;
+    margin-left: 60px;
+
+    /* deals font style */
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 150px;
+    letter-spacing: 0%; 
+      
+}
+
+.offer-categories{
+    /* ALL CATEGORIES */
+    width: 510px;
+    height: 58px;
+    left: 595px;
+    right: -595px;
+    top: 970px;
+    bottom: -925px;
+    margin-left: 60px;
+
+    /* categories font style */
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120px;
+    letter-spacing: 0%;
+    margin-bottom: 120px;
+}
+
+.image-new-year{
+    /* Happy New Year*/
+    width: 802.9px;
+    height: 500px;
+    left: 399px;
+    right: -399px;
+    top: 165.28%;
+    bottom: -142.09%;
 }
