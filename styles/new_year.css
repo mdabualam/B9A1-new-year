@@ -6,32 +6,48 @@ body {
 
 /* banner style */
 
-.banner-text {
-    position: absolute;
-    width: 732px;
-    height: 100px;
-    left: 300px;
-    right: -227px;
-    top: 150px;
+.banner-image{
+    width: 1320px;
+    height: 600px;
+    margin-left: 50px;
+    margin-right: 50px;
     
+    
+}
+
+.banner-text {
+    /* Rectangle 15 */
+    position: absolute;
+    width: 1320px;
+    height: 600px;
+    left: 57px;
+    top: 0px;
+    bottom: 50px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);
 }
 
 .banner-greeting {
     /* Happy New Year Font layout */
 
     color: rgb(255, 255, 255);
+    margin-top: 130px;
+    margin-left: 10px;
     font-size: 30px;
     font-weight: 400;
     line-height: 40px;
-    text-align: center;  
+    text-align: center;     
 }
 
-.banner-celebaration {
+.banner-celebration {
    
     /* Font layout-Celebration */
     color: rgb(255, 255, 255);
+    width: 632px;
+    /* margin-top: 30px; */
+    margin-left: 340px;
     font-size: 60px;
     font-weight: 900;
     line-height: 95px;
-    text-align: center;    
+    text-align: center;  
 }
