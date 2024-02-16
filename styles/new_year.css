@@ -1,0 +1,37 @@
+/* shared styles */
+body {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+}
+
+/* banner style */
+
+.banner-text {
+    position: absolute;
+    width: 732px;
+    height: 100px;
+    left: 300px;
+    right: -227px;
+    top: 150px;
+    
+}
+
+.banner-greeting {
+    /* Happy New Year Font layout */
+
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;  
+}
+
+.banner-celebaration {
+   
+    /* Font layout-Celebration */
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 95px;
+    text-align: center;    
+}
